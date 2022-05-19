@@ -1,2 +1,2 @@
 # webdevclass
-basic website project for web dev class @AUEB
+basic website project for web dev class @AUEB (2020)
