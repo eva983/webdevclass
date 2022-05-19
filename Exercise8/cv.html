@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>portofolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--sets the width of the page to follow the screen-width of the device &
+sets the initial zoom level -->
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div class="navigation">
+  <a href="main.html">main</a>
+  <a href="cv.html">work</a>
+  <a href="contact.html">contact</a>
+</div>
+
+
+<div class="flex">
+
+  <div class="main">
+  
+  <p id="quote"><q><i>What i like about photographs is that they capture a moment that’s gone forever, impossible to reproduce.
+</i></q><br>― Karl Lagerfeld </p>
+  
+
+   <div class="vidclass" tabindex="0">
+   <button onclick="playPause()">Play/Pause</button> <br><br>
+
+  <video id="video1" width="360"  >
+    <source src="vid.mp4" type="video/mp4">
+  </video> <Br>
+  </div>
+ 
+  
+  
+   <div class="responsive">
+
+  <div class="gallery">
+     <picture>
+    <source media="(max-width: 700px)" srcset="natureL.jpg">
+    <source srcset="natureH.jpg">
+  	<img src="natureH.jpg" alt="boats"> 
+  </picture>     
+
+    
+    <div class="desc"> nature(2015)</div>
+  </div>
+  </div>
+  
+  
+   <div class="responsive">
+
+  <div class="gallery">
+  
+  
+     <picture>
+    <source media="(max-width: 700px)" srcset="lifeL.jpg">
+    <source srcset="lifeH.jpg">
+  	<img src="lifeH.jpg" alt="boats"> 
+  </picture>     
+
+    
+    <div class="desc">moments (2017)</div>
+  </div>
+  </div>
+  
+  
+  
+   <div class="responsive">
+
+  <div class="gallery">
+     <picture>
+    <source media="(max-width: 700px)" srcset="detailsL.jpg">
+    <source srcset="detailsH.jpg">
+  	<img src="detailsH.jpg" alt="boats"> 
+  </picture>     
+
+    
+    <div class="desc">Details (2020)</div>
+  </div>
+  </div>
+ 
+ <div class="responsive">
+<div class="gallery">
+     <picture>
+    <source media="(max-width: 700px)" srcset="placesL.jpg">
+    <source srcset="placesH.jpg">
+  	<img src="placesH.jpg" alt="boats"> 
+  </picture>     
+
+    
+    <div class="desc">Beautiful boats (2015)</div>
+  </div>
+  </div> <br><br>
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+ 
+ </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    ~aueb 2020~ <br>
+	<a href="https://pixabay.com/el/">
+©photo credit© </a>
+
+</div>
+ <script src="script.js"></script> 
+
+</body>
+</html>
